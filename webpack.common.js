@@ -34,7 +34,7 @@ module.exports = {
     ],
     parser: {
       javascript: {
-        importMeta: true,
+        importMeta: false,
       },
     },
   },
