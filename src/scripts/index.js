@@ -7,7 +7,7 @@ const registerServiceWorker = async () => {
   }
 
   try {
-    await navigator.serviceWorker.register("/sw.js");
+    await navigator.serviceWorker.register("./sw.js");
   } catch (error) {
     console.info("Service worker belum tersedia (normal saat development).", error);
   }
